@@ -30,7 +30,17 @@ public class House {
     private User owner;
     private int status;
 
+    private String imagee;
+
     public House() {
+    }
+
+    public String getImagee() {
+        return imagee;
+    }
+
+    public void setImagee(String imagee) {
+        this.imagee = imagee;
     }
 
     public Long getId() {

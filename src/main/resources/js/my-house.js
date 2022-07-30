@@ -160,7 +160,7 @@ function findAllMyHouse() {
             Authorization: 'Bearer ' + token,
         },
         url: "http://localhost:8080/houses/find-by-ownerId?owner_id=" + localStorage.getItem("id"),
-        success: function (data) {
+        success: function (data) {``
             console.log(data);
             display(data, false);
         }
